@@ -1,0 +1,26 @@
+Sistema de Monitoramento de Tráfego Urbano
+
+Caso de Uso: Monitorar Tráfego em Tempo Real
+
+Atores:
+- Usuário
+- Sistema de Monitoramento de Tráfego
+
+Pré-condições:
+- O usuário deve ter acesso ao sistema.
+- O sistema deve estar operacional e conectado à rede de sensores de tráfego.
+
+Fluxo Principal:
+1. O usuário acessa o sistema.
+2. O sistema apresenta um mapa da cidade com informações de tráfego em tempo real.
+3. O usuário seleciona uma área específica para monitorar.
+4. O sistema exibe detalhes do tráfego na área selecionada, incluindo congestionamentos, acidentes e obras na via.
+5. O usuário pode optar por receber atualizações automáticas sobre as condições de tráfego na área selecionada.
+6. O sistema configura as notificações conforme solicitado pelo usuário.
+
+Pós-condições:
+- O usuário recebe informações precisas e atualizadas sobre as condições de tráfego.
+- O sistema continua monitorando o tráfego e atualizando as informações em tempo real.
+
+Exceções:
+- Se o sistema não conseguir acessar os dados dos sensores de tráfego, ele informará ao usuário sobre o problema e tentará novamente.
